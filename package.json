@@ -8,7 +8,11 @@
     "cloud-logger",
     "pino",
     "pino-config",
-    "google-cloud-logger"
+    "google-cloud-logger",
+    "gcp",
+    "gcr",
+    "gcp-log",
+    "gcp-logger"
   ],
   "files": [
     "dist/*"
