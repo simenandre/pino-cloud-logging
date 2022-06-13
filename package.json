@@ -1,7 +1,6 @@
 {
   "name": "pino-cloud-logging",
-  "main": "dist/main.js",
-  "repository": "github:cobraz/pino-cloud-logging",
+  "version": "1.0.4",
   "keywords": [
     "google",
     "google-cloud",
@@ -14,18 +13,21 @@
     "gcp-log",
     "gcp-logger"
   ],
+  "repository": "github:cobraz/pino-cloud-logging",
+  "license": "Apache-2.0",
+  "main": "dist/main.js",
   "files": [
     "dist/*"
   ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsnd --respawn src/main.ts",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest --coverage src/**/*"
+  },
   "prettier": "@cobraz/prettier",
   "eslintConfig": {
     "extends": "@bjerk/eslint-config"
-  },
-  "scripts": {
-    "dev": "tsnd --respawn src/main.ts",
-    "lint": "eslint . --ext .ts,.tsx",
-    "test": "jest --coverage src/**/*",
-    "build": "tsc"
   },
   "dependencies": {
     "pino": "^8.0.0"
@@ -41,7 +43,5 @@
     "ts-jest": "^27.1.3",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
-  },
-  "license": "Apache-2.0",
-  "version": "1.0.4"
+  }
 }
