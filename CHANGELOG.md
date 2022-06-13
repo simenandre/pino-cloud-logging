@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.3...v1.0.4) (2022-06-13)
+
+
+### Bug Fixes
+
+* remove logFormat ([43b4fd0](https://github.com/cobraz/pino-cloud-logging/commit/43b4fd0e6ca14f3723480d634bd605037abb66a0))
+
 ## [1.0.3](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.2...v1.0.3) (2022-06-13)
 
 
