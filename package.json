@@ -1,6 +1,7 @@
 {
   "name": "pino-cloud-logging",
   "main": "dist/main.js",
+  "repository": "github:cobraz/pino-cloud-logging",
   "keywords": [
     "google",
     "google-cloud",
