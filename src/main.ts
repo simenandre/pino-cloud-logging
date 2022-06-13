@@ -1,4 +1,4 @@
-import { Level, LoggerOptions, stdTimeFunctions } from 'pino';
+import { Level, LoggerOptions } from 'pino';
 
 // Map Pino levels to Google Cloud Logging severity levels
 // https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#LogSeverity
