@@ -15,16 +15,13 @@ export interface ServiceContext {
   serviceName?: string;
   version?: string;
   mixin?: (mergeObject: object, level: number) => object;
-  logFormat?: 'text' | 'json';
 }
 
 export function gcpLogOptions(
   options?: LoggerOptions,
   context: ServiceContext = {},
 ): LoggerOptions {
-  const { mixin, serviceName, version, logFormat = 'json' } = context;
-
-  const prettyPrint = logFormat === 'text';
+  const { mixin, serviceName, version } = context;
 
   return {
     // https://cloud.google.com/error-reporting/docs/formatting-error-messages#json_representation
@@ -54,10 +51,6 @@ export function gcpLogOptions(
     },
     mixin,
     messageKey: 'message',
-    prettyPrint,
-    timestamp: prettyPrint
-      ? stdTimeFunctions.isoTime
-      : () => `,"eventTime":${Date.now() / 1000.0}`,
     ...options,
   };
 }
