@@ -1,6 +1,14 @@
 {
   "name": "pino-cloud-logging",
   "main": "dist/main.js",
+  "keywords": [
+    "google",
+    "google-cloud",
+    "cloud-logger",
+    "pino",
+    "pino-config",
+    "google-cloud-logger"
+  ],
   "files": [
     "dist/*"
   ],
