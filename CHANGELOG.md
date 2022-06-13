@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.4...v1.0.5) (2022-06-13)
+
+
+### Miscellaneous Chores
+
+* release 1.0.5 ([cdb5bb5](https://github.com/cobraz/pino-cloud-logging/commit/cdb5bb5e255c814c3567be5f73cf4079e58ce6df))
+
 ## [1.0.4](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.3...v1.0.4) (2022-06-13)
 
 
