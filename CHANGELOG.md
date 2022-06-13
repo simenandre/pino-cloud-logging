@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.1...v1.0.2) (2022-06-13)
+
+
+### Bug Fixes
+
+* Make options and context optional ([13a7e48](https://github.com/cobraz/pino-cloud-logging/commit/13a7e4858c6073735cb253b0e0575188944950a6))
+
 ## [1.0.1](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.0...v1.0.1) (2022-06-13)
 
 
