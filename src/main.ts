@@ -12,17 +12,17 @@ const levelToSeverity: Record<string, string> = {
 };
 
 export interface ServiceContext {
-  serviceName: string;
-  version: string;
+  serviceName?: string;
+  version?: string;
   mixin?: (mergeObject: object, level: number) => object;
-  logFormat: 'text' | 'json';
+  logFormat?: 'text' | 'json';
 }
 
 export function gcpLogOptions(
-  options: LoggerOptions,
-  context: ServiceContext,
+  options?: LoggerOptions,
+  context: ServiceContext = {},
 ): LoggerOptions {
-  const { mixin, serviceName, version, logFormat } = context;
+  const { mixin, serviceName, version, logFormat = 'json' } = context;
 
   const prettyPrint = logFormat === 'text';
 
