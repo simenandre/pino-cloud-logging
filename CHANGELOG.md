@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.2...v1.0.3) (2022-06-13)
+
+
+### Bug Fixes
+
+* add declaration files ([37311af](https://github.com/cobraz/pino-cloud-logging/commit/37311af3ddab2bfd561de7291e2ce9369647656d))
+
 ## [1.0.2](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.1...v1.0.2) (2022-06-13)
 
 
