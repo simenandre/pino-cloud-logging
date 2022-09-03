@@ -23,9 +23,14 @@ export function gcpLogOptions(
 ): LoggerOptions {
   const { mixin, serviceName, version } = context;
 
+  const base =
+    serviceName && version
+      ? { serviceContext: { service: serviceName, version } }
+      : {};
+
   return {
     // https://cloud.google.com/error-reporting/docs/formatting-error-messages#json_representation
-    base: { serviceContext: { service: serviceName, version } },
+    base,
     formatters: {
       level(label: string) {
         const pinoLevel = label as Level;
