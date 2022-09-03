@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.5...v1.0.6) (2022-09-03)
+
+
+### Bug Fixes
+
+* remove base when serviceName and version is undefined ([895b53c](https://github.com/cobraz/pino-cloud-logging/commit/895b53c7c2e23f9419299beecf77d90fed6e28dd))
+
 ## [1.0.5](https://github.com/cobraz/pino-cloud-logging/compare/v1.0.4...v1.0.5) (2022-06-13)
 
 
