@@ -20,7 +20,7 @@
     "gcp-log",
     "gcp-logger"
   ],
-  "repository": "github:cobraz/pino-cloud-logging",
+  "repository": "github:simenandre/pino-cloud-logging",
   "license": "Apache-2.0",
   "main": "dist/main.js",
   "files": [
