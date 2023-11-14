@@ -33,9 +33,6 @@
     "test": "jest --coverage src/**/*"
   },
   "prettier": "@cobraz/prettier",
-  "eslintConfig": {
-    "extends": "@bjerk/eslint-config"
-  },
   "dependencies": {
     "pino": "^8.0.0"
   },
