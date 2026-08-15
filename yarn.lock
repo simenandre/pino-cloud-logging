@@ -603,6 +603,11 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
+"@tsconfig/node16@^16.0.0":
+  version "16.1.9"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-16.1.9.tgz#b6c9428bab9e7595dc0552600239c5f5f8eab90f"
+  integrity sha512-vzI9adb8N9w0/LS15qTfOAdi+QndGxjhOr7mXOrZ/aqCnkVvjc7O5k9uSyhf+Yb+5E3+17valm7CNscs5QNkmg==
+
 "@types/babel__core@^7.1.14":
   version "7.1.19"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.19.tgz#7b497495b7d1b4812bdb9d02804d0576f43ee460"
